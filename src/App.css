@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+input {
+  padding: 7px 15px;
+  width: 25%;
+  outline: none;
+  font-size: 1.2rem;
+}
+@media only screen and (max-width: 450px) {
+  input {
+    width: 50%;
+  }
+}
+
+button:hover {
+  background: green;
+  color: white;
+}
+button:active {
+  background: greenyellow;
+  color: black;
+}
+button:focus {
+  outline: none;
+}
